@@ -5,12 +5,12 @@ const CardLayout = () => {
   return (
  
       <div className=''>
-<div className='md:space-x-28 md:-ml-0 -ml-4 border space-y-4 flex items-center flex-col md:flex-row justify-between'>
+<div className='md:space-x-28 md:-ml-0 -ml-4  space-y-4 flex items-center flex-col md:flex-row justify-between'>
 
 
 {
         list.map((item,index)=>{
-          return <div className='flex md:items-start items-center flex-col md:flex-col border  w-4/5' key={index}>
+          return <div className='flex md:items-start items-center flex-col md:flex-col   w-4/5' key={index}>
           
          
           <h3 className='py-6 font-semibold text-white'>{item.heading}</h3>
