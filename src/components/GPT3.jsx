@@ -17,7 +17,7 @@ const GPT3 = () => {
           insisted so humanity he. Friendly bachelor entrance to on.
         </p>
       </div>
-      <div className="lower  md:w-full w-11/12 ">
+      <div className="lower  md:w-full w-96 ">
         <div className="flexx justify-between py-16 ">
           <h1 className="text-transparent  bg-clip-text bg-gradient-to-r from-[#AE67FA]  via-[#F49867]  to-[#F49867] md:text-2xl text-lg md:w-96 w-60 font-semibold">
             The possibilities are beyond your imagination
