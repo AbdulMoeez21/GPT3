@@ -19,7 +19,7 @@ const Hero = () => {
           <input
             type="email"
             placeholder="YOUR EMAIL ADDRESS"
-            className="  md:w-80 p-4  md:ml-0 -ml-6 rounded-l-lg outline-0  md:p-3 md:text-base text-xs "
+            className="  md:w-80 w-40 p-4  md:ml-0 -ml-3 rounded-l-lg outline-0  md:p-3 md:text-base text-xs "
           />
           <Buttons type="primary" size="oneside" className=" ">
             <span className="text-xs "> Subscribe</span>

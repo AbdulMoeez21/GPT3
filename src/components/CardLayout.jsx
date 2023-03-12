@@ -5,7 +5,7 @@ const CardLayout = () => {
   return (
  
       <div className=''>
-<div className='md:space-x-28  md:-ml-0 -ml-4 space-y-4 flex items-center flex-col md:flex-row justify-between'>
+<div className='md:space-x-28   space-y-4 flex items-center flex-col md:flex-row justify-between'>
 
 
 {
