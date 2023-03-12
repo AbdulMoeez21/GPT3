@@ -39,7 +39,7 @@ body {
 .buttons{
   @apply bg-[#FF4820];
 }
-.footer{
+.bg_foot{
   @apply bg-[#031B34];
 }
 .inputt{

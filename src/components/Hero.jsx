@@ -4,8 +4,8 @@ import Group from "../assets/Group.png";
 import HeroImg from "../assets/HeaderIllustration.png";
 const Hero = () => {
   return (
-    <div className=" flexx flex-col md:flex-row justify-between py-5">
-      <div className="  w-3/5 left flex flex-col space-y-4">
+    <div className=" flexx flex-col md:flex-row justify-between py-5 border">
+      <div className="  md:w-3/5 w-9/12 left flex flex-col space-y-4 border ">
         <h1 className="md:text-start text-center text-transparent  bg-clip-text bg-gradient-to-r from-[#AE67FA]  via-[#F49867]  to-[#F49867] md:text-6xl text-2xl font-semibold">
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
           <input
             type="email"
             placeholder="YOUR EMAIL ADDRESS"
-            className="  md:w-80 w-96 p-4  md:ml-0 ml-6 rounded-l-lg outline-0  md:p-3 md:text-base text-xs "
+            className="  md:w-80 w-96 p-4  md:ml-0 -ml-6 rounded-l-lg outline-0  md:p-3 md:text-base text-xs "
           />
           <Buttons type="primary" size="oneside" className=" ">
             <span className="text-xs "> Subscribe</span>
