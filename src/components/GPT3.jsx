@@ -17,12 +17,12 @@ const GPT3 = () => {
           insisted so humanity he. Friendly bachelor entrance to on.
         </p>
       </div>
-      <div className="lower  md:w-full w-96 ">
+      <div className="lower  md:w-full w-84 ">
         <div className="flexx justify-between py-16 ">
-          <h1 className="text-transparent  bg-clip-text bg-gradient-to-r from-[#AE67FA]  via-[#F49867]  to-[#F49867] md:text-2xl text-lg md:w-96 w-60 font-semibold">
+          <h1 className="text-transparent  bg-clip-text bg-gradient-to-r from-[#AE67FA]  via-[#F49867]  to-[#F49867] md:text-2xl text-base md:w-96 w-56 font-semibold">
             The possibilities are beyond your imagination
           </h1>
-          <small className="text_pech md:text-sm text-xs md:mt-0 mt-10  ">Explore The Library</small>
+          <small className="text_pech md:text-sm text-xs md:mt-0 mt-10 md:-ml-0  md:pr-0 pr-5">Explore The Library</small>
         </div>
 
         <CardLayout />
