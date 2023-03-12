@@ -66,33 +66,45 @@ export const FutureData = [
   },
 ];
 
+ import img1 from './assets/blogs/Rectangle22.png'
+import img2 from './assets/blogs/Rectangle23.png'
+import img3 from './assets/blogs/Rectangle24.png'
+import img4 from './assets/blogs/Rectangle25.png'
+import img5 from './assets/blogs/Rectangle26.png'
+
+
 export const BlogsData = [
   {
     id: 1,
+    img: img1,
     date: "Sep 26, 2021",
     paragraph: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
     read: "Read Full Article",
   },
   {
     id: 2,
+    img: img2,
     date: "Sep 31, 2021",
     paragraph: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
     read: "Read Full Article",
   },
   {
     id: 3,
+    img: img3,
     date: "Sep 2, 2021",
     paragraph: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
     read: "Read Full Article",
   },
   {
     id: 4,
+    img: img5,
     date: "Sep 13, 2021",
     paragraph: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
     read: "Read Full Article",
   },
   {
     id: 5,
+    img: img4,
     date: "Sep 21, 2021",
     paragraph: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
     read: "Read Full Article",

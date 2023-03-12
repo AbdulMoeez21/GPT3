@@ -6,7 +6,7 @@ const Partners = () => {
   return (
 
    
-      <div className=' flexx flex-wrap gap-5 justify-center md:space-x-9'>
+      <div className=' flexx flex-wrap gap-5 p-16 justify-center md:space-x-9'>
       {
         list.map((item,index)=>{
           return <div className='' key={index}>

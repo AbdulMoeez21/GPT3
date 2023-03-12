@@ -16,8 +16,8 @@ function App() {
 
 
   return (
-    <div className='bg_color'>
-    <div className="container-main bg_color text_color">
+    <div className='gradient__bg'>
+    <div className="container-main text_color ">
       
       <Navbar/>
   <Hero/>
@@ -28,9 +28,10 @@ function App() {
   <GetStarted/>
 
   <Blogs/>
+  </div>
   <Request/>
   <Footer/>
-  </div>
+ 
     </div>
   )
 }

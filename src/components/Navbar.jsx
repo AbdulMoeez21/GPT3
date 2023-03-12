@@ -23,7 +23,7 @@ const navItems=[
 
 
   return (
-    <div className="flex-col md:flex-row flex items-center justify-between py-4">
+    <div className=" flex-col md:flex-row flex items-center justify-between py-4">
       <div className=" self-center text-3xl md:text-3xl font-semibold whitespace-nowrap dark:text-white"> GPT-3</div>
       <div className="flexx justify-center md:py-10 py-5 w-full space-x-4 ">
       {navItems.map((item, index) => {

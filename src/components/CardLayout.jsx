@@ -5,13 +5,16 @@ const CardLayout = () => {
   return (
  
       <div className=''>
-<div className='border flexx justify-between'>
+<div className='md:space-x-28 space-y-4 flex items-center flex-col md:flex-row justify-between'>
+
 
 {
         list.map((item,index)=>{
-          return <div className='' key={index}>
-          <h3 className='pb-6 font-semibold'>{item.heading}</h3>
-          <small className=''>{item.paragraph}</small>
+          return <div className='flex md:items-start items-center flex-col md:flex-col w-3/4' key={index}>
+          
+         
+          <h3 className='py-6 font-semibold text-white'>{item.heading}</h3>
+          <small className='text-justify'>{item.paragraph}</small>
           </div>
         })
       }
